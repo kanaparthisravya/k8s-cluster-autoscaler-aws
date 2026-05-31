@@ -58,3 +58,22 @@ EC2 Worker Nodes
 - DevOps
 - Autoscaling
 - Load Testing
+## Architecture
+
+```text
+k6 Load Generator
+        |
+        v
+Node.js Express API
+        |
+        v
+Kubernetes Pods
+        |
+        v
+Cluster Autoscaler
+        |
+        v
+AWS Auto Scaling Group
+        |
+        v
+EC2 Worker Nodes
