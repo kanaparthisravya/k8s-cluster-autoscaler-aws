@@ -97,3 +97,11 @@ EC2 Worker Nodes
 - Node.js
 - Express.js
 - k6
+## Key Features
+
+- Automatic worker node scaling
+- AWS Auto Scaling Group integration
+- Containerized Node.js application
+- Load testing using k6
+- Improved resource utilization
+- Infrastructure cost optimization
