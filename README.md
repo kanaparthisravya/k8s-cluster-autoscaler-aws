@@ -105,3 +105,10 @@ EC2 Worker Nodes
 - Load testing using k6
 - Improved resource utilization
 - Infrastructure cost optimization
+## Resume Highlights
+
+- Implemented Kubernetes Cluster Autoscaler with AWS Auto Scaling Groups.
+- Developed and containerized a Node.js Express API.
+- Automated cluster scale-out and scale-in operations.
+- Performed load testing using k6.
+- Improved application scalability and cloud resource efficiency.
