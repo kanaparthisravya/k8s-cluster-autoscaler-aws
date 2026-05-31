@@ -77,3 +77,14 @@ AWS Auto Scaling Group
         |
         v
 EC2 Worker Nodes
+## Workflow
+
+1. Deploy the Node.js Express application on Kubernetes.
+2. Configure AWS Auto Scaling Groups for worker nodes.
+3. Install Kubernetes Cluster Autoscaler.
+4. Generate traffic using k6 load testing.
+5. Cluster Autoscaler detects unschedulable pods.
+6. AWS Auto Scaling Group launches new EC2 instances.
+7. New nodes join the cluster automatically.
+8. Workloads are distributed across the cluster.
+9. Unused nodes are removed when demand decreases.
