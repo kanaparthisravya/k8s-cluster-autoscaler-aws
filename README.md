@@ -88,3 +88,12 @@ EC2 Worker Nodes
 7. New nodes join the cluster automatically.
 8. Workloads are distributed across the cluster.
 9. Unused nodes are removed when demand decreases.
+## Tech Stack
+
+- Kubernetes
+- AWS EC2
+- AWS Auto Scaling Groups
+- Docker
+- Node.js
+- Express.js
+- k6
